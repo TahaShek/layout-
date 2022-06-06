@@ -1,0 +1,84 @@
+/* *{margin: 0;
+padding: 0;
+} */
+body{
+    background-image: url(assests/asd.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+/* background-attachment: fixed; */
+}
+
+nav{
+    display: flex;
+}
+ul{
+display: flex;
+width: 100%;
+/* background-color: red; */
+justify-content: space-between;
+margin-left:500px ;
+padding:10px ;
+}
+li{
+    list-style: none;
+display: inline;
+color: white;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+.parent{
+    display: flex;
+    /* background-color: green; */
+    height: 100vh;
+    border: 1px solid;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    /* justify-items: center; */
+    /* justify-content: end; */
+    /* background-color: tan; */
+    align-items: center;
+    
+    /* height: 100vh; */
+    /* width: 100vh; */
+    width: 100%;
+    flex-direction: column;
+}
+.div1 input{
+    width: 200px;
+    /* height: 50px; */
+    padding:5px ;
+    border-radius: 20px ;
+}
+input:hover{background-color: gray;}
+
+.parent2{
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    background-color:#a2a8d3;
+    opacity: 0.5;
+    width: 200px;
+    height: 200px;
+}
+.box2{
+    background-color:#38598b;
+    opacity: 0.3;
+    width: 200px;
+    height: 200px;
+}
+.box3{
+    background-color:white;
+height: 200px;
+width: 200px;
+opacity: 0.3;
+/* padding: 50px; */
+box-sizing: border-box;
+}
+.hello{text-align: center;
+color: white;}
