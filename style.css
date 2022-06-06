@@ -82,3 +82,7 @@ box-sizing: border-box;
 }
 .hello{text-align: center;
 color: white;}
+
+    .fa-solid{
+        margin-right: 10px;
+    }
